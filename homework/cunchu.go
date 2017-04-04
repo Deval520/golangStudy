@@ -3,7 +3,7 @@ import (
   "fmt"
 )
 const(
-  B float64 = 1<<(iota*10)
+  B float64 = 1<<(iota*10) //位运算符
   KB
   MB
   GB
