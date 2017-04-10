@@ -11,6 +11,10 @@ func main() { //执行顺序从上至下
 	// func1()
 	fun2()
 	fmt.Println(a)
+
+	s := "words"
+	str := say(s)
+	fmt.Println(str)
 }
 
 //递归函数
@@ -31,4 +35,9 @@ func func1() {
 func fun2() {
 	b = 8
 	fmt.Println(b)
+}
+
+func say(s string) string {
+	prase := s + "parse"
+	return prase
 }
