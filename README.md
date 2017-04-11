@@ -29,6 +29,6 @@
 
 ps:切记不要把GOPATH设置成go的安装路径,如可以自己创建一个目录devalDev
 
-export $GOPATH=/Users/newband/Documents/GOWORKSPACE/golangStudy
+```export $GOPATH=/Users/newband/Documents/GOWORKSPACE/golangStudy```
 
 ## 后续未完~
