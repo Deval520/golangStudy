@@ -31,4 +31,8 @@ ps:切记不要把GOPATH设置成go的安装路径,如可以自己创建一个�
 
 ```export $GOPATH=/Users/newband/Documents/GOWORKSPACE/golangStudy```
 
+## go新手踩坑持续更新
+
+  ###1.同级目录下不可以定义不同的package(这条坑的我好惨~)
+
 ## 后续未完~
