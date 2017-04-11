@@ -26,7 +26,9 @@
 
 1. GOPATH之下主要有三个目录:bin、pkg、src
 2. bin目录主要存放可执行文件;pkg目录存放编译好的库文件主要是*.a文件;src目录主要存放go的源文件
+
 ps:切记不要把GOPATH设置成go的安装路径,如可以自己创建一个目录devalDev
+
 export $GOPATH=/Users/newband/Documents/GOWORKSPACE/golangStudy
 
 ## 后续未完~
