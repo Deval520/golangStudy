@@ -15,9 +15,9 @@ golangStudy
    </tr>
    <tr>
       <td>GOROOT</td>
-      <td>GOPATH</td>
+      <td>go的安装路径,各系统默认安装路径会有不同遂不再赘述,若要执行go命令和go工具,需要设置go的可执行文件路径 $PATH:$GOOT/bin</td>
    </tr>
    <tr>
-      <td>go的安装路径,各系统默认安装路径会有不同遂不再赘述,若要执行go命令和go工具,需要设置go的可执行文件路径 $PATH:$GOOT/bin</td>
+      <td>GOPATH</td>
       <td>go install和go get的工具等会用到GOPATH环境变量.GOPATH是作为编译后的二进制的存放目的地和import包时的搜索路径(其实也是你的工作目录,你可以在src下创建你自己的go源文件)</td>
 </table>
