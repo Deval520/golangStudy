@@ -8,8 +8,9 @@ import (
 
 func main() {
 	a := 1
-	fmt.Printf("%v\n", two.Even(a))
+	fmt.Printf("%v, %v, %T\n", two.Even(a), a, a)
 	duoCan("abc", 1, 3, 5, 5)
+
 }
 
 //变参函数
